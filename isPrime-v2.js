@@ -7,7 +7,7 @@ function isPrime(number) {
     return false;
   }
   const checkList = range(2, number - 1);
-  for (check in checkList) {
+  for (const check in checkList) {
     if (number % check === 0) {
       return false;
     }
