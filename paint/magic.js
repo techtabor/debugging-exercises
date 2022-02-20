@@ -83,7 +83,7 @@ var x = (function(){
 		context.beginPath();
 		console.log(e.clientX);
 		
-		context.arc(e.clientX,e.clientY,0,size,2*Math.PI);
+		context.arc(e.clientX,e.clientY,0,2*Math.PI,size);
 
 		context.fill();
 		
