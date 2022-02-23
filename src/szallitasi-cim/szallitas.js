@@ -3,6 +3,17 @@ let szamlazasiAdatok = { nev: '', cim: '' };
 
 const osszefoglaloNode = document.getElementById('osszefoglalo');
 
+function initSzamlazas() {
+  szamlazasiAdatok = szallitasiAdatok;
+
+  document.getElementById("init_szamlazasi_cim").disabled = true;
+  document.getElementById('szamlazasi_adatok').style.display = 'block';
+  
+  document.getElementById('szamlazasi_nev').value = szamlazasiAdatok.nev;
+  document.getElementById('szamlazasi_cim').value = szamlazasiAdatok.cim;
+  osszefoglaloNode.innerText = osszefoglalo();
+}
+
 function osszefoglalo() {
   return `
     A jelenlegi szállítási név: ${szallitasiAdatok.nev}.
@@ -20,14 +31,6 @@ document.getElementById("szallitasi_nev").addEventListener('change', event => {
 document.getElementById("szallitasi_cim").addEventListener('change', event => {
   szallitasiAdatok.cim = event.target.value;
   osszefoglaloNode.innerText = osszefoglalo();
-});
-
-document.getElementById("init_szamlazasi_cim").addEventListener('click', event => {
-  szamlazasiAdatok = szallitasiAdatok;
-  document.getElementById('szamlazasi_adatok').style.display = 'block';
-  document.getElementById('szamlazasi_nev').value = szamlazasiAdatok.nev;
-  document.getElementById('szamlazasi_cim').value = szamlazasiAdatok.cim;
-  document.getElementById("init_szamlazasi_cim").disabled = true;
 });
 
 document.getElementById("szamlazasi_nev").addEventListener('change', event => {
