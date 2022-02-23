@@ -1,12 +1,12 @@
 # debugging-exercises
 
-Ebben a repositoryban több kisebb, szándékosan hibás, egymástól független program van. A cél, a  debugolás (egy tapasztalt hibás működés okának megtalálása és megjavítása) gyakorlása. 
-
-A gyakorlatok elérhetőek a következő weboldalról: https://techtabor.agondolkodasorome.hu/debugging-exercises/
+Ebben a repositoryban több kisebb, szándékosan hibás, egymástól független program van. A cél a  debugolás (egy tapasztalt hibás működés okának megtalálása és megjavítása) gyakorlása. 
 
 Ha a saját gépeteken szeretnétek kipróbálni, megjavítani a kódokat, akkor töltsétek le magatokhoz a repositoryt. A gyökérmappában levő index.html fájlt ha megnyitjátok böngészőben, akkor egy táblázatot láttok az összes elérhető feladatról. 
 
 A feladatok nagyjából nehézségi sorrendben vannak, de ez szubjektív, nem kell követni. A feladat része a hibák megtalálása is, de nem ez a fókusz, ha nem találtok hibát, kérdezzetek!
+
+A gyakorlatok elérhetőek a következő weboldalról is: https://techtabor.agondolkodasorome.hu/debugging-exercises/.
 
 ## Hogyan debugolj?
 
@@ -34,5 +34,5 @@ Hasznos lehet a tudományos módszer: legyen egy hipotézised, majd tervezz egy 
 - érdemes időt és energiát fektetni a hibák megelőzésébe, de a leggondosabb eljárás esetén is lesznek hibák, ezért érdemes fejlődni a hibák megtalálásában is
 - minden hibának van racionális magyarázata, és sokkal gyakoribb, hogy a te általad írt kódban van, mint hogy egy libraryben, vagy magában a programozási nyelvben etc.
 - egy adott működés egy programtól elvárt viselkedéssel szemben lehet hiba, önmagában egy program nem bugos
-- print statements are the poor man's debugger :) A legt0bb fejlesztői környezetben és programnyelvhez van egy hasonló elveken működő debugger, de ha ez nem elérhető, vagy nem kényelmes, akkor print parancsokkal is lehet debugolni, az alapvető gondolkodásmód elsajátítása a fontos, nem a használt eszköz.
-- hibaüzeneteket érdemes elolvasni, azonosítani a releváns részt, egy kereső sokszor gyors megoldásra vezet
+- print statements are the poor man's debugger :) A legtöbb fejlesztői környezetben és programnyelvhez van egy hasonló elveken működő debugger, de ha ez nem elérhető, vagy nem kényelmes, akkor print parancsokkal is lehet debugolni, az alapvető gondolkodásmód elsajátítása a fontos, nem a használt eszköz.
+- hibaüzeneteket érdemes elolvasni, azonosítani a releváns részt, egy rákeresés sokszor gyors megoldásra vezet
