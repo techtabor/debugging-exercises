@@ -7,7 +7,7 @@ int[] selectRandomly(int count, int poolSize) {
   int[] result = {};
   while(count > 0) {
     count = count - 1;
-    result = append(result, int(random(poolSize)));
+    append(result, int(random(poolSize)));
   }
   return result;
 }
