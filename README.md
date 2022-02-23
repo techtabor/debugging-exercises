@@ -12,6 +12,8 @@ A gyakorlatok elérhetőek a következő weboldalról is: https://techtabor.agon
 
 Processing: https://processing.org/environment/#debug-1
 
+https://happycoding.io/tutorials/processing/images/debugging-5.gif
+
 Tutorial javascript debugolásról Chrome böngésző segítségével: https://developer.chrome.com/docs/devtools/javascript/
 
 Hasznos lehet a tudományos módszer: legyen egy hipotézised, majd tervezz egy kísérletet, azt hajtsd végre, és értékeld ki a hipotézist, majd ezt ismételd. Ez hatékonyabb tud lenni, mint csak a kódot nézve gondolkozni, megpróbálni fejben megtalálni a hibát, vagy különösebb rendszer nélkül megnézni részeredményeket, köztes változókat.
